@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Ronald Nagy — fotograf, kameraman a tvorca obsahu z Bratislavy.">
+  <title>Ronald Nagy — Fotograf</title>
+  <link rel="preload" as="image" href="photos/1-reduced.png">
+  <link rel="preload" as="image" href="photos/2-reduced.png">
+  <link rel="preload" as="image" href="photos/3-reduced.png">
+  <link rel="preload" as="image" href="photos/4-reduced.png">
+  <link rel="preload" as="image" href="photos/5-reduced.png">
+  <link rel="preload" as="image" href="photos/6-reduced.png">
+  <link rel="preload" as="image" href="photos/7-reduced.png">
+  <link rel="preload" as="image" href="photos/8-reduced.png">
+  <link rel="preload" as="image" href="photos/9-reduced.png">
+  <link rel="preload" as="image" href="photos/10-reduced.png">
+  <link rel="preload" as="image" href="photos/1.png">
+  <link rel="preload" as="image" href="photos/2.png">
+  <link rel="preload" as="image" href="photos/3.png">
+  <link rel="preload" as="image" href="photos/4.png">
+  <link rel="preload" as="image" href="photos/5.png">
+  <link rel="preload" as="image" href="photos/6.png">
+  <link rel="preload" as="image" href="photos/7.png">
+  <link rel="preload" as="image" href="photos/8.png">
+  <link rel="preload" as="image" href="photos/9.png">
+  <link rel="preload" as="image" href="photos/10.png">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/script.js" defer></script>
+</head>
+<body>
+  <div class="loading-screen" id="loading-screen" role="status" aria-live="polite">
+    <span class="loading-spinner" aria-hidden="true"></span>
+    <span class="loading-label">Načítavam fotografie</span>
+  </div>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Ronald Nagy, začiatok stránky">Ronald Nagy</a>
+  </header>
+
+  <main id="top">
+    <section class="intro" aria-labelledby="intro-title">
+      <div class="intro-content">
+        <h1 id="intro-title">Ahoj, som <span>Ronald.</span></h1>
+        <p class="intro-copy">Zachytávam jedinečné momenty a rozprávam príbehy obrazom.</p>
+      </div>
+      <a class="scroll-cue" href="#work" aria-label="Prejsť na fotografie"><span></span></a>
+    </section>
+
+    <section class="work-section" id="work" aria-label="Výber fotografií">
+      <div class="photo-grid" id="photo-grid"></div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="about-copy">
+        <p class="eyebrow">Niečo o mne</p>
+        <h2 id="about-title">Obraz, ktorý <em>zostane.</em></h2>
+        <p>Som fotograf, kameraman a tvorca obsahu z Bratislavy. Rád zachytávam jedinečné momenty, rozprávam príbehy obrazom a premieňam kreatívne nápady na skutočnosť.</p>
+        <p>Venujem sa fotografii, videu, úprave fotografií a tvorbe digitálneho obsahu. Neustále objavujem nové postupy, zdokonaľujem sa a pracujem na kreatívnych projektoch. Mojím cieľom je vytvárať kvalitný vizuálny obsah, ktorý inšpiruje a uchováva spomienky.</p>
+        <p class="support-note">Vaša podpora mi pomáha rozvíjať kreativitu, zlepšovať výbavu a pokračovať v tom, čo ma baví. Ďakujem, že ste súčasťou mojej cesty. <span aria-label="srdce">❤️</span></p>
+        <div class="about-actions" aria-label="Odkazy na podporu a Instagram">
+          <a class="action-link coffee-link" href="https://buymeacoffee.com/ronkonagy2t" target="_blank" rel="noopener noreferrer">Podporte ma cez Buy Me a Coffee <span aria-hidden="true">↗</span></a>
+          <a class="action-link instagram-link" href="https://www.instagram.com/rondapex_original" target="_blank" rel="noopener noreferrer">Pozrite si môj Instagram <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© Ronald Nagy 2025 – <span id="current-year"></span></span>
+    <span>Web created by <a href="https://github.com/JonySVK" target="_blank" rel="noopener noreferrer">Ján Ivičič</a> © 2026</span>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Zobrazenie fotografie">
+    <button class="lightbox-close" type="button" aria-label="Zavrieť fotografiu">×</button>
+    <button class="lightbox-arrow lightbox-prev" type="button" aria-label="Predchádzajúca fotografia">←</button>
+    <div class="lightbox-loading" aria-hidden="true"><span class="loading-spinner"></span></div>
+    <p class="lightbox-error" id="lightbox-error" role="status" hidden>Fotografiu sa nepodarilo načítať.</p>
+    <figure>
+      <img class="lightbox-image" id="lightbox-image" alt="">
+    </figure>
+    <button class="lightbox-arrow lightbox-next" type="button" aria-label="Nasledujúca fotografia">→</button>
+  </dialog>
+</body>
+</html>
+
+
+
+
+
+
+
