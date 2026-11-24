@@ -8,7 +8,7 @@ This MIT License applies exclusively to the source code created by Ján Ivičič
 
 ## Reuse this project as a template
 
-1. On GitHub, select **Use this template** and create a new repository. If that button is not available, fork or clone this repository.
+1. On GitHub, fork or clone this repository.
 2. In **index.html**, replace Ronald's name, page title, introduction, biography, location, Buy Me a Coffee link, and Instagram link with your own details.
 3. In **assets/script.js**, update the photographer name used in the images' accessible alt text.
 4. Replace the image files in **photos**. Keep the numbering paired:
